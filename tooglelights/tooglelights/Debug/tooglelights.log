@@ -1,0 +1,9 @@
+﻿  stdafx.cpp
+  tooglelights.cpp
+c:\users\victor\desktop\visual studio 2010 projects\tooglelights\tooglelights\tooglelights.cpp(24): warning C4018: '<': signed/unsigned mismatch
+c:\users\victor\desktop\visual studio 2010 projects\tooglelights\tooglelights\tooglelights.cpp(37): warning C4129: ',': unrecognized character escape sequence
+c:\users\victor\desktop\visual studio 2010 projects\tooglelights\tooglelights\tooglelights.cpp(38): warning C4129: ',': unrecognized character escape sequence
+c:\users\victor\desktop\visual studio 2010 projects\tooglelights\tooglelights\tooglelights.cpp(39): warning C4129: ',': unrecognized character escape sequence
+c:\users\victor\desktop\visual studio 2010 projects\tooglelights\tooglelights\tooglelights.cpp(40): warning C4129: ',': unrecognized character escape sequence
+  tooglelights.vcxproj -> C:\Users\Victor\Desktop\Visual Studio 2010 Projects\tooglelights\Debug\tooglelights.exe
+  tooglelights.vcxproj -> C:\Users\Victor\Desktop\Visual Studio 2010 Projects\tooglelights\Debug\tooglelights.pdb (Full PDB)

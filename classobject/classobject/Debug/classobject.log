@@ -1,0 +1,35 @@
+﻿Build started 1/28/2014 10:34:44 AM.
+     1>Project "c:\Users\maganv\documents\visual studio 2010\Projects\classobject\classobject\classobject.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\classobject.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Debug\classobject.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\classobject.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\classobject.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt classobject.cpp
+         classobject.cpp
+     1>c:\users\maganv\documents\visual studio 2010\projects\classobject\classobject\classobject.cpp(35): warning C4700: uninitialized local variable 'vSphereAPIobj' used
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\classobject.exe.embed.manifest.res" Debug\classobject_manifest.rc 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\maganv\documents\visual studio 2010\Projects\classobject\Debug\classobject.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\classobject.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"c:\users\maganv\documents\visual studio 2010\Projects\classobject\Debug\classobject.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\maganv\documents\visual studio 2010\Projects\classobject\Debug\classobject.lib" /MACHINE:X86 Debug\classobject.exe.embed.manifest.res
+         Debug\classobject.obj
+         Debug\stdafx.obj
+       Manifest:
+         Deleting file "Debug\classobject.exe.embed.manifest".
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\classobject.exe.embed.manifest" /manifest Debug\classobject.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\classobject.exe.embed.manifest.res" Debug\classobject_manifest.rc 
+       LinkEmbedManifest:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\maganv\documents\visual studio 2010\Projects\classobject\Debug\classobject.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\classobject.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"c:\users\maganv\documents\visual studio 2010\Projects\classobject\Debug\classobject.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\maganv\documents\visual studio 2010\Projects\classobject\Debug\classobject.lib" /MACHINE:X86 Debug\classobject.exe.embed.manifest.res
+         Debug\classobject.obj
+         Debug\stdafx.obj
+         classobject.vcxproj -> c:\users\maganv\documents\visual studio 2010\Projects\classobject\Debug\classobject.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\classobject.unsuccessfulbuild".
+         Touching "Debug\classobject.lastbuildstate".
+     1>Done Building Project "c:\Users\maganv\documents\visual studio 2010\Projects\classobject\classobject\classobject.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.36

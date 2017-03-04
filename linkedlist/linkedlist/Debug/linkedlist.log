@@ -1,0 +1,34 @@
+﻿Build started 10/18/2012 11:19:11 AM.
+     1>Project "c:\Users\maganv\documents\visual studio 2010\Projects\linkedlist\linkedlist\linkedlist.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\linkedlist.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\linkedlist.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt linkedlist.cpp
+         linkedlist.cpp
+     1>c:\users\maganv\documents\visual studio 2010\projects\linkedlist\linkedlist\linkedlist.cpp(33): error C2678: binary '!=' : no operator found which takes a left-hand operand of type 'std::_List_iterator<_Mylist>' (or there is no acceptable conversion)
+                 with
+                 [
+                     _Mylist=std::_List_val<std::string,std::allocator<std::string>>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\system_error(425): could be 'bool std::operator !=(const std::error_code &,const std::error_condition &)'
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\system_error(432): or       'bool std::operator !=(const std::error_condition &,const std::error_code &)'
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\list(298): or       'bool std::_List_const_iterator<_Mylist>::operator !=(const std::_List_const_iterator<_Mylist> &) const'
+                 with
+                 [
+                     _Mylist=std::_List_val<std::string,std::allocator<std::string>>
+                 ]
+                 while trying to match the argument list '(std::_List_iterator<_Mylist>, std::_List_iterator<_Mylist>)'
+                 with
+                 [
+                     _Mylist=std::_List_val<std::string,std::allocator<std::string>>
+                 ]
+                 and
+                 [
+                     _Mylist=std::_List_val<int,std::allocator<int>>
+                 ]
+     1>Done Building Project "c:\Users\maganv\documents\visual studio 2010\Projects\linkedlist\linkedlist\linkedlist.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.92
